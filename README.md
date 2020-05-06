@@ -7,12 +7,12 @@ Você pode rodar o programa mesmo sem instalar, basta usar o script normalmente 
 
 # LINUX
 
-    - chmod +x digiscon.sh
-    - ./digiscon.sh duckscript.duck
+    chmod +x digiscon.sh
+    ./digiscon.sh duckscript.duck
 
 Porém a instalação é recomendada // a instalação só é viavel para linux:
 
-    - ./digiscon.sh install
+    ./digiscon.sh install
  
 
 # WINDOWS
