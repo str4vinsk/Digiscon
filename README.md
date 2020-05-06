@@ -21,5 +21,7 @@ Porém a instalação é recomendada // a instalação só é viavel para linux:
     java -jar encoder.jar -i your_duck_file.duck -o payload_name.bin -l resources/br.properties
     python2 duck2spark.py -i payload_name.bin -o digispark_payload.ino
     
+    ou rode em um shell linux simulado.
+    
 
 #Good Hacking!!
