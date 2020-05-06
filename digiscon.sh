@@ -18,13 +18,6 @@ if [ "$EUID" -ne 0 ];then
   	exit
 fi
 
-if [ "$OSTYPE" == "win32" ];then
-	read -p "payload name: " name
-	java -jar encoder.jar -i $1 -o $name.bin -l resources/br.properties
-        python2 duck2spark.py -i $name.bin -o $name.ino
-fi
-
-
 if [ "$1" == "install" ]; then
 	if [[ -e "/usr/share/digiscon" ]]; then
                 echo "Digiscon is already installed!"
