@@ -24,12 +24,13 @@ if [ "$1" == "install" ]; then
 		read -p "Do you want to reinstall it (y/n) ? " yn
 		if [[ "$yn" = "y" ]]; then
 			rm -rf /usr/share/digiscon
+			rm /usr/bin/digiscon
                 	install
 		elif [ "$yn" = "n" ]; then
 			echo "Okay"
 			exit
 		else
-			echo "[!!] Invalid!"
+			echo "[!!] Invalid option!"
 			exit
 		fi
         else
@@ -40,7 +41,9 @@ fi
 
 if [ "$#" -ne 1 ]; then
 	echo "[!!] ERROR [!!]"
+	echo " "
         echo "Please use: ./digiscon script.duck"
+	echo " "
 	echo "To install it: ./digiscon.sh install"
 else
 	if [ -e "$1" ]; then
