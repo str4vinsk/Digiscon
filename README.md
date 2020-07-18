@@ -17,11 +17,13 @@ Porém a instalação é recomendada // a instalação só é viavel para linux:
 
 # WINDOWS
 
-    Execute os dois scripts separadamente.
-    java -jar encoder.jar -i your_duck_file.duck -o payload_name.bin -l resources/br.properties
-    python2 duck2spark.py -i payload_name.bin -o digispark_payload.ino
+    É necessário os seguintes programas para o correto funcionamento do script: Python 2.7 e Java.
+    Abra o cmd em modo administrador e execute o script "digiscon.bat", instruções a seguir:
     
-    ou rode em um shell linux simulado.
+    - O script deve ser executado na pasta que contenha os arquivos do projeto
+    - O duck script desejado deve estar gravado em um arquivo ".txt"
+    
+    > digiscon.bat duckscript.txt
     
 
 #Good Hacking!!
