@@ -1,7 +1,7 @@
 # Digispark-br-abnt2-layout
 # DIGISCON
 
-## Installing
+## 💾 Installing
 
 Você pode rodar o programa mesmo sem instalar, basta usar o script normalmente dentro da pasta que contém os arquivos necessários.
 
@@ -16,11 +16,15 @@ Execute o arquivo e insira como primeiro argumento o script .duck desejado
 ./digiscon.sh duckscript.duck
 ```
 
+<hr>
+
 Porém a instalação é recomendada -->  a instalação só é viavel para linux:
 
 ```
 ./digiscon.sh install
 ```
+
+<hr>
 
 ## Windows
 
