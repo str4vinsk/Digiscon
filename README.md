@@ -1,6 +1,12 @@
 # Digispark-br-abnt2-layout
 # DIGISCON
 
+## About
+
+Script conversor para tornar possivel a utilização do digispark em layout Portugues Brasileiro ( abnt2 ) através da conversão de scripts .duck em arquivos ino já em pt-BR, ao importado para o Arduino IDE o script só precisara ser carregado ao digispark, ele já estará com o layout pt-BR funcionando. 
+
+---
+
 ## 💾 Installing
 
 Você pode rodar o programa mesmo sem instalar, basta usar o script normalmente dentro da pasta que contém os arquivos necessários.
